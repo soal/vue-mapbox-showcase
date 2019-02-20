@@ -8,13 +8,24 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "vue": "^2.5.16"
+    "@mapbox/mapbox-gl-geocoder": "^3.1.1",
+    "@turf/circle": "^6.0.1",
+    "map-promisified": "^0.4.0",
+    "mapbox-gl": "^0.53.0",
+    "mapbox-gl-geocoder": "^2.0.1",
+    "vue": "^2.6.6",
+    "vue-mapbox": "latest",
+    "vue-mapbox-geocoder": "latest",
+    "vue-router": "^3.0.1"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^3.0.0-beta.15",
-    "@vue/cli-plugin-eslint": "^3.0.0-beta.15",
-    "@vue/cli-service": "^3.0.0-beta.15",
-    "vue-template-compiler": "^2.5.16"
+    "@vue/cli-plugin-babel": "^3.3.0",
+    "@vue/cli-plugin-eslint": "^3.3.0",
+    "@vue/cli-service": "^3.3.0",
+    "@vue/eslint-config-prettier": "^4.0.1",
+    "eslint-plugin-html": "^5.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "vue-template-compiler": "^2.6.6"
   },
   "eslintConfig": {
     "root": true,
